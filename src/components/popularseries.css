@@ -1,0 +1,26 @@
+
+.row2{
+    display: flex;
+    padding: 40px;
+}
+.card img {
+    max-width: 200px;
+    max-height: 2000px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.card img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    border: 1px solid black
+}
+
+
+.row2{
+    overflow-y:hidden;
+}
+
+.row2::-webkit-scrollbar {
+    width: 6px;
+}

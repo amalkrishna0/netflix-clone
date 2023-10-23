@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Body from './components/Body';
 import PopularFilm from './components/PopularFilm';
+import PopularSeries from './components/PopularSeries';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route
           path='/'
           element={
-            <div><Navbar/><Body/><PopularFilm/></div>
+            <div><Navbar/><Body/><PopularFilm/><PopularSeries/></div>
           }
           />
       </Routes>
