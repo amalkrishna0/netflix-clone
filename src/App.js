@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Route
           path='/'
           element={
-            <div><Navbar/></div>
+            <div><Navbar/><Body/></div>
           }
           />
       </Routes>
