@@ -1,0 +1,27 @@
+.navbar{
+    height: 90px;
+    background-color: black;
+    color: white;
+    
+}
+.netflix{
+    background: url("../images/netflix.png");
+    background-size: cover;
+    height: 100%;
+    float: left;
+    width: 160px;
+    padding: auto;
+}
+.list{
+    display: flex;
+    justify-content:space-around;
+    width:60%;
+    height: 100%;
+    align-items: center;
+    font-weight: 400;
+
+
+}
+span{
+    cursor: pointer;
+}
