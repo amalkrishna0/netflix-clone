@@ -15,7 +15,7 @@ export default function Body() {
       },
     };
 
-    fetch('https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1', options)
+    fetch('https://api.themoviedb.org/3/movie/upcoming?language=en-IN&page=1', options)
       .then((response) => response.json())
       .then((data) => {
         setFilmss(data.results);

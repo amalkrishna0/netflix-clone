@@ -54,17 +54,21 @@
 }
 .prevFilm{
     background-image: url('../images/nexticon.png');
-    background-size: cover;
-    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
     width: 60px;
     background-color: transparent;
+    cursor: pointer;
 
     
 }
 .nextFilm{
     background-image: url('../images/previcon.png');
-    background-size: cover;
-    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
     width: 60px;
     background-color: transparent;
+    cursor: pointer;
 }
